@@ -1,0 +1,106 @@
+@import 'reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    background-color: #003049;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p {
+    margin: 2% 3%;
+}
+
+hr {
+    background-color: #215A6D;
+    height: 1px;
+    width: 100%;
+}
+
+div.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 1%;
+    background-color: #F0F8FF;
+    max-height: 100%;
+    max-width: 1024px;
+}
+
+div.flex-sub-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#info {
+    align-self: center;
+    text-align: center;
+    width: 50%;
+}
+
+button {
+    background-color: #215A6D;
+    border-radius: 3.33%;
+    color: #FFFFFF;
+    height: 2em;
+    width: 7em;
+    margin: 1% auto;
+}
+
+button:hover {
+    transition: 0.5s ease;
+    background-color: #FFCC33;
+    color: #003049;
+    filter: drop-shadow(0 0 0.75rem #215A6D);
+    
+}
+
+div#buttons {
+    display: flex;
+    flex-direction: column;
+    margin: 1% auto;
+}
+
+section {
+    margin: 3.33% 1%;
+    text-align: justify;
+}
+
+figure {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foto {
+    border-radius: 100%;
+    filter: drop-shadow(0 0 0.5rem #215A6D);
+    height: 20%;
+    min-height: 200px;
+    width: 20%;
+    min-width: 200px;
+    transition: 1s;
+}
+
+#foto:hover {
+    filter: drop-shadow(0 0 1rem #215A6D);
+    transition: 1s;
+}
+
+footer {
+    font-size: small;
+    text-align: center;
+}
