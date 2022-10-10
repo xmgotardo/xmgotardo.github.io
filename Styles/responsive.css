@@ -1,0 +1,22 @@
+@media screen and (max-width: 412px) {
+    div.flex-sub-container {
+        flex-direction: column-reverse;
+        margin-top: 3.33%;
+    }
+
+    #info {
+        width: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    p {
+        margin: 3% 1%;
+    }
+
+    section {
+        margin: 5% 1%;
+    }
+}
