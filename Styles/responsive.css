@@ -1,10 +1,14 @@
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 540px) {
+    div.flex-container {
+        padding: 0;
+    }
+
     div.flex-sub-container {
         flex-direction: column-reverse;
-        margin-top: 3.33%;
     }
 
     #info {
+        margin: auto;
         width: auto;
     }
 
@@ -12,11 +16,34 @@
         text-align: center;
     }
 
-    p {
-        margin: 3% 1%;
+    hr {
+        align-self: center;
+        width: 95%;
+    }
+
+    p, li {
+        margin: 1rem 0.5rem;
     }
 
     section {
-        margin: 5% 1%;
+        margin: 2rem 0.5rem;
+    }
+
+    div#quadro-direito section {
+        margin-bottom: 0;
+    }
+
+    figure {
+        width: auto;
+    }
+
+    main {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 356px) {
+    h2 {
+        font-size: 1.10rem;
     }
 }

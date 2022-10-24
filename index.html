@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Styles/style.css">
-    <link rel="stylesheet" href="Styles/responsive.css">
+    <link rel="stylesheet" href="./Styles/reset.css">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <link rel="stylesheet" href="./Styles/responsive.css">
     <title> Marcel Gotardo - Portfolio </title>
 </head>
-<!-- Início do corpo do documento. -->
 
+<!-- Início do corpo do documento. -->
 <body>
     <div class="flex-container">
         <!-- Início do header. -->
@@ -20,27 +21,34 @@
                     <h1> Marcel Gotardo </h1>
                     <h6> Full Stack Developer </h6>
                     <div id="buttons">
-                        <button>
-                            <a href="tel:+5522998862880" target="_blank"> - Telefone - </a>
+                        <button onclick="window.location.href='tel:+5522998862880'" type="button">
+                            <img class="botoes-icones" src="./Assets/Icons/chamada-telefonica.png" alt="Ícone do Telefone." />
+                            Telefone
                         </button>
-                        <button>
-                            <a href="mailto:xmgotardo@outlook.com" target="_blank"> - eMail - </a>
+                        <button onclick="window.location.href='mailto:xmgotardo@outlook.com'" type="button">
+                            <img class="botoes-icones" src="./Assets/Icons/envelope.png" alt="Ícone do eMail." />
+                            eMail
                         </button>
-                        <button>
-                            <a href="https://www.linkedin.com/in/xmgotardo" target="_blank"> - LinkedIn - </a>
+                        <button onclick="window.open('https://www.linkedin.com/in/xmgotardo', '_blank');" type="button">
+                            <img class="botoes-icones" src="./Assets/Icons/linkedin.png" alt="Ícone do LinkedIn." />
+                            LinkedIn
                         </button>
-                        <button>
-                            <a href="https://www.github.com/xmgotardo" target="_blank"> - GitHub - </a>
+                        <button onclick="window.open('https://www.github.com/xmgotardo', '_blank');" type="button">
+                            <img class="botoes-icones" src="./Assets/Icons/github.png" alt="Ícone do GitHub." />
+                            GitHub
                         </button>
                     </div>
                 </section>
                 <figure>
-                    <img id="foto" src="Assets/Images/foto.jpg" alt="Foto de Perfil">
+                    <img id="foto" src="./Assets/Images/foto.jpg" alt="Foto de Perfil" />
                     <!-- <figcaption> Marcel. - Foto do Perfil. </figcaption> -->
                 </figure>
             </div>
             <section>
-                <h2> Sobre </h2>
+                <h2>
+                    <img class="corpo-icones" src="./Assets/Icons/info.png" alt="Ícone de Informação" />
+                    Sobre
+                </h2>
                 <p>
                     Olá prezado(a)! Atuo como autônomo em TI - área operacional principalmente (montagem, manutenção,
                     redes e help desk) - há anos, e estou "migrando" para área de desenvolvimento/programação, na qual
@@ -49,7 +57,7 @@
                 </p>
                 <p>
                     Tecnologias: <br>
-                    Git | HTML | CSS | JavaScript | NodeJS | SQL | Linux
+                    Git | HTML | CSS | JavaScript | Node.js | SQL | Linux
                 </p>
             </section>
         </header>
@@ -57,35 +65,61 @@
         <hr>
         <!-- Início do main.-->
         <main>
-            <div>
+            <div id="quadro-esquerdo">
                 <section>
-                    <h2> Experiência Profissional </h2>
-                    <p>
-                        Buscando minha primeira oportunidade na área de desenvolvimento.
-                    </p>
+                    <h2>
+                        <img class="corpo-icones" src="./Assets/Icons/pasta-trabalho.png" alt="Ícone de Pasta." />
+                        Experiência Profissional
+                    </h2>
+                    <p> Buscando minha primeira oportunidade na área de desenvolvimento. </p>
                 </section>
                 <section>
-                    <h2> Formação Acadêmica </h2>
-                    <p> Bacharelado em Engenharia de Software | UniCesumar, 2022 - 2026 </p>
+                    <h2>
+                        <img class="corpo-icones" src="./Assets/Icons/formacao.png" alt="Ícone de Educação Formal." />
+                        Formação Acadêmica
+                    </h2>
+                    <p> Tecnólogo em Análise e Desenvolvimento de Sistemas | UNINTER, 2022 - 2025 </p>
                     <p> Técnico em Administração | SENAC/ARRJ, 07/2015 </p>
                 </section>
                 <section>
-                    <h2> Cursos </h2>
-                    <p> Computação em Nuvem | SENAI/SC, 10/2022 </p>
-                    <p> Programação Básica Back-end | SENAI/SC, 10/2022 </p>
-                    <p> Programação Básica Front-end | SENAI/SC, 10/2022 </p>
-                    <p> Programa Oracle Next Education | Alura, 08/2022 </p>
-                    <p> Network Security | Cisco NetAcad, 07/2022 </p>
-                    <p> Introduction to Networks CCNAv7 | Cisco NetAcad, 05/2022 </p>
-                    <p> Cybersecurity Pathway | Cisco NetAcad, 04/2022 </p>
-                    <p> Cybersecurity Essentials | Cisco NetAcad, 03/2022 </p>
-                    <p> Cybersecurity Methodology | SENAI/RJ, 03/2022 </p>
+                    <h2>
+                        <img class="corpo-icones" src="./Assets/Icons/puzzle.png" alt="Ícone de Cursos Complementares." />
+                        Cursos
+                    </h2>
+                    <ul>
+                        <li> Computação em Nuvem | SENAI/SC, 10/2022 </li>
+                        <li> Lógica de Programação com JavaScript | SENAI/SC, 10/2022 </li>
+                        <li> Programação Básica Back-end | SENAI/SC, 10/2022 </li>
+                        <li> User Experience - Interfaces Digitais | SENAI/SC, 10/2022 </li>
+                        <li> Programação Básica Front-end | SENAI/SC, 10/2022 </li>
+                        <li> Programa Oracle Next Education | Alura, 08/2022 </li>
+                        <li> Network Security | Cisco NetAcad, 07/2022 </li>
+                        <li> Introduction to Networks CCNAv7 | Cisco NetAcad, 05/2022 </li>
+                        <li> Cybersecurity Pathway | Cisco NetAcad, 04/2022 </li>
+                        <li> Cybersecurity Essentials | Cisco NetAcad, 03/2022 </li>
+                        <li> Cybersecurity Methodology | SENAI/RJ, 03/2022 </li>
+                    </ul>
                 </section>
                 <section>
-                    <h2> Idiomas </h2>
-                    <p>
-                        Inglês - Fluente
-                    </p>
+                    <h2>
+                        <img class="corpo-icones" src="./Assets/Icons/idioma.png" alt="Ícone de Idiomas." />
+                        Idiomas
+                    </h2>
+                    <ul>
+                        <li> Inglês - Avançado </li>
+                        <li> Português - Nativo </li>
+                    </ul>
+                </section>
+            </div>
+            <div id="quadro-direito">
+                <section>
+                    <h2>
+                        <img class="corpo-icones" src="./Assets/Icons/portfolio.png" alt="Ícone de Portfolio." />
+                        Portfólio
+                    </h2>
+                    <ul>
+                        <li> <a href="https://github.com/xmgotardo/xmgotardo.github.io" target="_blank"> Currículo Web </a> </li>
+                    </ul>
                 </section>
             </div>
         </main>
