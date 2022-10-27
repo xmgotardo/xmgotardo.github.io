@@ -1,141 +1,142 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 
 html {
-    font-family: Montserrat, sans-serif;
+	font-family: Montserrat, sans-serif;
 }
 
 body {
-    background-color: #003049;
+	background-color: #003049;
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: 700;
+	font-size: 2rem;
+	font-weight: 700;
 }
 
 h2 {
-    font-size: 1.5rem;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+	font-size: 1.5rem;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
 }
 
 main a {
-    color: #456990;
-    text-decoration: underline;
+	color: #456990;
+	text-decoration: underline;
 }
 
-p, li {
-    margin: 1rem 1rem;
+p,
+li {
+	margin: 1rem 1rem;
 }
 
 hr {
-    background-color: #215A6D;
-    height: 1px;
-    width: 100%;
+	background-color: #215A6D;
+	height: 1px;
+	width: 100%;
 }
 
 div.flex-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    padding: 0 1rem;
-    background-color: #F0F8FF;
-    max-height: 100%;
-    max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	padding: 0 1rem;
+	background-color: #F0F8FF;
+	max-height: 100%;
+	max-width: 1024px;
 }
 
 div.flex-sub-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
 #info {
-    text-align: center;
-    width: 50%;
+	text-align: center;
+	width: 50%;
 }
 
 .botoes-icones {
-    height: 1.25rem;
-    width: 1.25rem;
+	height: 1.25rem;
+	width: 1.25rem;
 }
 
 .corpo-icones {
-    margin-right: 0.5rem;
-    height: 2rem;
-    width: 2rem;
+	margin-right: 0.5rem;
+	height: 2rem;
+	width: 2rem;
 }
 
 button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    background-color: #FFCC33;
-    border-radius: 0.25rem;
-    color: #003049;
-    height: 2em;
-    width: 7em;
-    margin: 1% auto;
-    transition: 0.5s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	background-color: #FFCC33;
+	border-radius: 0.25rem;
+	color: #003049;
+	height: 2rem;
+	width: 7rem;
+	margin: 1% auto;
+	transition: 0.5s ease;
 }
 
 button:hover {
-    transition: 0.5s ease;
-    filter: drop-shadow(0 0 0.5rem #333232);
-    
+	transition: 0.5s ease;
+	filter: drop-shadow(0 0 0.5rem #333232);
 }
 
 div#buttons {
-    display: flex;
-    flex-direction: column;
-    margin: 1% auto;
+	display: flex;
+	flex-direction: column;
+	margin: 1% auto;
 }
 
 section {
-    margin: 2rem 1rem;
-    text-align: justify;
+	margin: 2rem 1rem;
+	text-align: justify;
 }
 
 main {
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
+	justify-content: stretch;
 }
 
 div#quadro-esquerdo {
-    min-width: 75%;
+	min-width: 75%;
 }
 
 div#quadro-direito {
-    min-width: 25%;
+	min-width: 25%;
 }
 
 figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 1rem 1rem;
-    width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 1rem;
+	width: 50%;
 }
 
 #foto {
-    border-radius: 100%;
-    filter: drop-shadow(0 0 0.5rem #333232);
-    height: 20%;
-    min-height: 200px;
-    width: 20%;
-    min-width: 200px;
-    transition: 1s;
+	border-radius: 100%;
+	filter: drop-shadow(0 0 0.5rem #333232);
+	height: 20%;
+	min-height: 200px;
+	width: 20%;
+	min-width: 200px;
+	transition: 1s;
 }
 
 #foto:hover {
-    filter: drop-shadow(0 0 0.7rem #333232);
-    transition: 1s;
+	filter: drop-shadow(0 0 0.7rem #333232);
+	transition: 1s;
 }
 
 footer {
-    font-size: small;
-    text-align: center;
-    margin: 1rem;
+	font-size: small;
+	text-align: center;
+	margin: 1rem;
 }
