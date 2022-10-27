@@ -1,5 +1,7 @@
 # Currículo Web.
 
+## Release Candidate! (v0.7)
+
 ## Adição de Ícones; Ajustes gerais. (v0.6)
 
 ## Adição de conteúdo; Ajustes gerais. (v0.5)
